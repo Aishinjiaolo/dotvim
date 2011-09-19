@@ -1,3 +1,10 @@
+## Installing plugins as submodules
+
+cd ~/.vim
+git submodule add http://github.com/{author}/{thing}.git bundle/{thing}
+git add .
+git commit -m "Install {thing}.vim bundle as a submodule"
+
 ## Installing Vim environment on another machine
 
 cd ~
