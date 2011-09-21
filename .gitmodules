@@ -7,3 +7,66 @@
 [submodule "bundle/ctags"]
 	path = bundle/ctags
 	url = https://github.com/fishman/ctags.git
+[submodule "bundle/vim-align"]
+	path = bundle/vim-align
+	url = https://github.com/tsaleh/vim-align.git
+[submodule "bundle/vim-grep"]
+	path = bundle/vim-grep
+	url = https://github.com/vim-scripts/grep.vim
+[submodule "bundle/vim-l9"]
+	path = bundle/vim-l9
+	url = https://github.com/clones/vim-l9.git
+[submodule "bundle/vim-gitv"]
+	path = bundle/vim-gitv
+	url = https://github.com/gregsexton/gitv.git
+[submodule "bundle/vim-dirdiff"]
+	path = bundle/vim-dirdiff
+	url = https://github.com/vim-scripts/DirDiff.vim.git
+[submodule "bundle/vim-foldutil"]
+	path = bundle/vim-foldutil
+	url = https://github.com/vim-scripts/foldutil.vim.git
+[submodule "bundle/vim-perlsupport"]
+	path = bundle/vim-perlsupport
+	url = https://github.com/benizi/perl-support.vim.git
+[submodule "bundle/vim-nerdcommenter"]
+	path = bundle/vim-nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/vim-mru"]
+	path = bundle/vim-mru
+	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "bundle/vim-nerdtree"]
+	path = bundle/vim-nerdtree
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/vim-lusty"]
+	path = bundle/vim-lusty
+	url = https://github.com/sjbach/lusty.git
+[submodule "bundle/vim-fuzzyfinder"]
+	path = bundle/vim-fuzzyfinder
+	url = https://github.com/vim-scripts/FuzzyFinder.git
+[submodule "bundle/vim-genutils"]
+	path = bundle/vim-genutils
+	url = https://github.com/vim-scripts/genutils.git
+[submodule "bundle/vim-cscope"]
+	path = bundle/vim-cscope
+	url = https://github.com/vim-scripts/cscope_macros.vim.git
+[submodule "bundle/vim-cecutil"]
+	path = bundle/vim-cecutil
+	url = https://github.com/clones/vim-cecutil.git
+[submodule "bundle/vim-bufexplorer"]
+	path = bundle/vim-bufexplorer
+	url = https://github.com/slack/vim-bufexplorer.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-tabbar"]
+	path = bundle/vim-tabbar
+	url = https://github.com/vim-scripts/TabBar.git
+[submodule "bundle/vim-timestamp"]
+	path = bundle/vim-timestamp
+	url = https://github.com/vim-scripts/timestamp.vim.git
+[submodule "bundle/vim-vividchalk"]
+	path = bundle/vim-vividchalk
+	url = https://github.com/tpope/vim-vividchalk.git
+[submodule "bundle/vim-zoomwin"]
+	path = bundle/vim-zoomwin
+	url = https://github.com/rphillips/vim-zoomwin.git
