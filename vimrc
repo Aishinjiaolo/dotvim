@@ -2,10 +2,10 @@ let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
 let g:LustyJugglerSuppressRubyWarning = 1
 
+syntax on
+
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-
-syntax on
 
 set nowrap
 set nocp incsearch
@@ -27,3 +27,4 @@ set tabstop=4
 set ignorecase
 set smartcase
 
+filetype plugin on
