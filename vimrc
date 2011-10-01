@@ -18,6 +18,10 @@ set ruler
 set nowrap
 set incsearch
 set autoindent
+set autoread
+set autowrite
+set backspace=indent,eol,start
+set cmdheight=2
 
 au BufWinEnter * let w:m1=matchadd('Search', '\%<81v.\%>77v', -1)
 au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
@@ -28,3 +32,6 @@ set ignorecase
 set smartcase
 
 filetype plugin on
+filetype indent on
+
+
