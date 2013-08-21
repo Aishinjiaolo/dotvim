@@ -7,6 +7,8 @@ syntax on
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+set nu
+set hlsearch
 set nowrap
 set nocp incsearch
 set shiftwidth=4
@@ -22,6 +24,9 @@ set autoread
 set autowrite
 set backspace=indent,eol,start
 set cmdheight=2
+set hidden
+set t_Co=256
+color mango
 
 "au BufWinEnter * let w:m1=matchadd('Search', '\%<81v.\%>77v', -1)
 "au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
@@ -34,4 +39,4 @@ set smartcase
 filetype plugin on
 filetype indent on
 
-
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
