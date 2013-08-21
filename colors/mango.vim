@@ -86,8 +86,8 @@
     exe "hi Delimiter "       .White
     exe "hi Exception "       .Peach
     exe "hi Float "           .Blue
-    exe "hi Function "        .White
-    exe "hi Identifier "      .White
+    exe "hi Function "        .Orange
+    exe "hi Identifier "      .Peach
     exe "hi Ignore "          .Blue
     exe "hi Include "         .Purple
     exe "hi Keyword "         .Peach
