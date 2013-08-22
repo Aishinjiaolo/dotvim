@@ -2,10 +2,14 @@ let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
 let g:LustyJugglerSuppressRubyWarning = 1
 
-syntax on
 
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
+filetype off
+syntax on
+filetype plugin on
+filetype indent on
 
 set nu
 set hlsearch
@@ -26,6 +30,7 @@ set backspace=indent,eol,start
 set cmdheight=2
 set hidden
 set t_Co=256
+
 color mango
 
 "au BufWinEnter * let w:m1=matchadd('Search', '\%<81v.\%>77v', -1)
@@ -35,8 +40,5 @@ set expandtab
 set tabstop=4
 set ignorecase
 set smartcase
-
-filetype plugin on
-filetype indent on
 
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
