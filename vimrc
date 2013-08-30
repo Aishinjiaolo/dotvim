@@ -37,8 +37,9 @@ color mango
 "au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
 set expandtab
-set tabstop=4
+set tabstop=2
 set ignorecase
 set smartcase
 
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
+let g:cssColorVimDoNotMessMyUpdatetime = 1
